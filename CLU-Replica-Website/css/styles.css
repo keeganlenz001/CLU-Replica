@@ -46,7 +46,7 @@ form {
     justify-content: center;
     flex-wrap: wrap;
     width: 75vw;
-    max-width: 1140px;
+    width: 1140px;
 }
 
 h1 {
