@@ -205,3 +205,49 @@ a:hover {
 .contact {
     margin-top: 10px;
 }
+
+
+@media (max-width: 1200px) {
+    .global-header {
+        margin-bottom: 5vh;
+    }
+
+    form {
+        width: calc(100% - 30px);
+    }
+
+    h1, .row, .sign-in, .username, .username-lable, .username-input, .password, .password-lable, .password-input, button, .account-tools{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.75em;
+        margin-bottom: -0.5em;
+        text-align: left;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .password {
+        margin-top: 10px;
+    }
+    
+    button {
+        margin-top: 25px;
+        padding: 11px;
+    }
+
+    .account-tools {
+        margin-top: 40px;
+        margin-left: -15px;
+    }
+
+    .account-help {
+        margin-top: 35px;
+        margin-left: -15px;
+        width: calc(100% + 15px)
+    }
+}
