@@ -211,6 +211,58 @@ a:hover {
 }
 
 
+@media (max-width: 1200px) {
+    form {
+        width: 940px;
+    }
+
+    .sign-in, .username, .username-lable, .username-input, .password, .password-lable, .password-input, button, h5, .account-tools, .account-help, p {
+        width: 212.5px;
+    }
+
+    .username {
+        margin-top: -3px;
+        margin-bottom: -15px;
+    }
+
+    .password {
+        margin-top: -24px;
+    }
+
+    button {
+        margin-top: -44px;
+    }
+
+    h5 {
+        margin-top: -3px;
+    }
+
+    .account-tools {
+        margin-left: 96px;
+        padding: 0px 15px;
+    }
+
+    .account-help {
+        margin-left: 111px;
+        padding: 0px 15px;
+    }
+
+    .list {
+        width: 186px;
+    }
+
+    .bullet {
+        margin-top: 9px;
+    }
+
+    a {
+        line-height: 25px;
+        margin-top: -6px;
+        width: 170px;
+    }
+}
+
+
 @media (max-width: 990px) {
     form {
         width: 720px;
