@@ -277,8 +277,9 @@ a:hover {
     }
 
     button {
+        margin-top: -70px;
         width: 157.5px;
-        padding: -10px;
+        padding: 0;
     }
 
     .account-tools {
@@ -304,7 +305,7 @@ a:hover {
         width: calc(100% - 30px);
     }
 
-    h1, .row, .sign-in, .username, .username-lable, .username-input, .password, .password-lable, .password-input, button, .account-tools{
+    h1, .row, .sign-in, .username, .username-lable, .username-input, .password, .password-lable, .password-input, button, .account-tools, .list, p{
         width: 100%;
     }
 
@@ -320,11 +321,11 @@ a:hover {
     }
 
     .password {
-        margin-top: 10px;
+        margin-top: 25px;
     }
     
     button {
-        margin-top: 25px;
+        margin-top: 5px;
         padding: 11px;
     }
 
@@ -333,8 +334,13 @@ a:hover {
         margin-left: -15px;
     }
 
+    a {
+        width: calc(100% - 16px)
+    }
+
     .account-help {
         margin-top: 35px;
+        margin-bottom: 30px;
         margin-left: -15px;
         width: calc(100% + 15px)
     }
